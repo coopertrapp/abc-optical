@@ -40,7 +40,7 @@ function slider() {
         x = 1;
     }
 
-    imgs.src = "/img/" + images[x - 1];
+    imgs.src = images[x - 1];
     heading1.textContent = header[x - 1];
     paragraph1.textContent = paragraph[x - 1];
 }
