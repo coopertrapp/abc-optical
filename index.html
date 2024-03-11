@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ABC Optical</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <nav id="home">
+            <h1>ABC Optical</h1>
+            <ul class="nav-menu">
+                <li>
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about-us" class="nav-link">About Us</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#products" class="nav-link">Products</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <button onclick="goTop()" id="goTopButton" title="Go to top">
+            Go to top
+        </button>
+        <header>
+            <img
+                id="header-img"
+                src="header-image-1.jpg"
+                alt="A man with glasses and a white t-shirt standing on a pier overlooking the sea."
+            />
+            <div>
+                <h1 id="heading1">Visionary Style, Clear Choices</h1>
+                <p id="paragraph1">
+                    Explore a world of impeccable vision and unparalleled style
+                    at ABC Optical. Our curated collection of premium eyewear
+                    blends fashion and function seamlessly. Elevate your look
+                    with frames that speak to your unique style, while enjoying
+                    crystal-clear vision. See the world with clarity and
+                    confidence, only at ABC Optical.
+                </p>
+            </div>
+        </header>
+        <main id="about-us">
+            <h1>About Us</h1>
+            <div>
+                <img
+                    src="about-us-image.jpg"
+                    alt="A woman browsing glasses in a store, carefully examining the frames on display."
+                />
+                <img
+                    src="about-us-image-2.jpg"
+                    alt="A woman browsing glasses in a store, carefully examining the frames on display."
+                />
+            </div>
+            <h1>Our Team</h1>
+            <div>
+                <article>
+                    <img
+                        src="jackson-walter-headshot.jpg"
+                        alt="A man in a sweater posing for a photo."
+                    />
+                    <h2>Jackson Walter</h2>
+                    <h3>Manager</h3>
+                </article>
+                <article>
+                    <img
+                        src="tommy-marshell-headshot.jpg"
+                        alt="A man in a white shirt smiling."
+                    />
+                    <h2>Tom Marshell</h2>
+                    <h3>Optometrist</h3>
+                </article>
+                <article>
+                    <img
+                        src="lilly-blanchard-headshot.jpg"
+                        alt="Smiling woman wearing a red dress."
+                    />
+                    <h2>Lilly Blanchard</h2>
+                    <h3>Optometrist</h3>
+                </article>
+            </div>
+        </main>
+        <section id="services">
+            <h1>Services</h1>
+            <img
+                src="services-image.jpg"
+                alt="A man and boy checking out glasses at a store."
+            />
+            <ul>
+                <li>
+                    <label for="category1"
+                        >Comprehensive Eye Care<span
+                            ><img
+                                src="arrow-icon.png"
+                                alt="Check mark symbol" /></span
+                    ></label>
+                    <input type="radio" name="accordion" id="category1" />
+                    <div id="content">
+                        <ul>
+                            <li>- Eye Examinations</li>
+                            <li>- Diabetic Eye Examinations</li>
+                            <li>- Macular Degeneration Tests</li>
+                            <li>- Glaucoma & Eye Pressure Testing</li>
+                            <li>- Cataracts Check</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <label for="category2"
+                        >Vision Correction<span
+                            ><img
+                                src="arrow-icon.png"
+                                alt="Check mark symbol" /></span
+                    ></label>
+                    <input type="radio" name="accordion" id="category2" />
+                    <div id="content">
+                        <ul>
+                            <li>- Spectacles</li>
+                            <li>- Contact Lens Fitting and Management</li>
+                            <li>- Vision Functionality and Health</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <label for="category3"
+                        >Vision Functionality and Health<span
+                            ><img
+                                src="arrow-icon.png"
+                                alt="Check mark symbol" /></span
+                    ></label>
+                    <input type="radio" name="accordion" id="category3" />
+                    <div id="content">
+                        <ul>
+                            <li>- Clearness of Vision</li>
+                            <li>- Focusing Ability</li>
+                            <li>- Colour Vision Assessments</li>
+                            <li>- Amblyopia (Lazy Eye)</li>
+                            <li>- Eye Muscle Movement and Control</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <label for="category4"
+                        >Specialized Eye Services<span
+                            ><img
+                                src="arrow-icon.png"
+                                alt="Check mark symbol" /></span
+                    ></label>
+                    <input type="radio" name="accordion" id="category4" />
+                    <div id="content">
+                        <ul>
+                            <li>- Referrals for Eye Laser Surgery</li>
+                            <li>- Mining & Industrial Safety Spectacles</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <label for="category5"
+                        >Eyewear Guidance<span
+                            ><img
+                                src="arrow-icon.png"
+                                alt="Check mark symbol" /></span
+                    ></label>
+                    <input type="radio" name="accordion" id="category5" />
+                    <div id="content">
+                        <ul>
+                            <li>- Advice on Sunglasses Fitting</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <article id="products">
+            <h1>Products</h1>
+            <section>
+                <img src="search-icon.png" alt="Search smybol" />
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="Search"
+                    onkeyup="search()"
+                />
+            </section>
+            <h2 id="no-matches-header">No matches have been found.</h2>
+            <div>
+                <div>
+                    <img
+                        src="visionful-glasses.jpg"
+                        alt="Sunglasses placed on mirror, showing their reflection."
+                    />
+                    <h1>Visionful</h1>
+                    <h2>$89.99</h2>
+                </div>
+                <div>
+                    <img
+                        src="opticz-glasses.jpg"
+                        alt="Green sunglasses on white surface."
+                    />
+                    <h1>Opticz</h1>
+                    <h2>$120.00</h2>
+                </div>
+                <div>
+                    <img
+                        src="insight-glasses.jpg"
+                        alt="Glasses on white surface."
+                    />
+                    <h1>Insight</h1>
+                    <h2>$99.95</h2>
+                </div>
+                <div>
+                    <img
+                        src="seefvl-glasses.jpg"
+                        alt="A pair of glasses resting on a white box."
+                    />
+                    <h1>Seefvl</h1>
+                    <h2>$79.99</h2>
+                </div>
+                <div>
+                    <img
+                        src="viewz-glasses.jpg"
+                        alt="On top of a white box, there is a pair of sunglasses."
+                    />
+                    <h1>Viewz</h1>
+                    <h2>$110.00</h2>
+                </div>
+                <div>
+                    <img
+                        src="eyeful-glasses.jpg"
+                        alt="A pair of blue coloured glasses resting on white marble."
+                    />
+                    <h1>Eyeful</h1>
+                    <h2>$95.50</h2>
+                </div>
+                <div>
+                    <img
+                        src="lenzing-glasses.jpg"
+                        alt="Green sunglasses resting on a white box."
+                    />
+                    <h1>Lenzing</h1>
+                    <h2>$130.00</h2>
+                </div>
+                <div>
+                    <img
+                        src="glasswear-glasses.jpg"
+                        alt="Green glasses on white marble."
+                    />
+                    <h1>Glasswear</h1>
+                    <h2>$75.00</h2>
+                </div>
+                <div>
+                    <img
+                        src="framez-glasses.jpg"
+                        alt="A pair of glasses and leaf on white surface."
+                    />
+                    <h1>Framez</h1>
+                    <h2>$115.99</h2>
+                </div>
+            </div>
+        </article>
+        <aside id="contact">
+            <h1>Contact</h1>
+            <iframe
+                title="Google Maps pinning the store location."
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.956868565886!2d153.0222966114666!3d-27.47060211664669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a04ea4720f7%3A0xe53973c17492fc71!2s91%20Queen%20St%2C%20Brisbane%20City%20QLD%204000!5e0!3m2!1sen!2sau!4v1709086354661!5m2!1sen!2sau"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div>
+                <div>
+                    <h1>Address</h1>
+                    <p>
+                        Myer Centre in the Queen Street Mall on Level 1, Shop
+                        number 36
+                    </p>
+                </div>
+                <div>
+                    <h1>Phone Number</h1>
+                    <p>07 3256 7101</p>
+                </div>
+            </div>
+        </aside>
+        <footer>
+            <div>
+                <img
+                    src="small-abc-optical-logo.png"
+                    alt="Logo of ABC Optical on a white background."
+                />
+            </div>
+            <section>
+                <h1>Legal</h1>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </section>
+            <article>
+                <h1>Pages</h1>
+                <ul class="nav-menu">
+                    <li>
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about-us" class="nav-link">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#products" class="nav-link">Products</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </article>
+            <aside>
+                <h1>Socials</h1>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </aside>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
